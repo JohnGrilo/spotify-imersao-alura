@@ -9,7 +9,12 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
+}
 
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
 }
 
 .logo {
@@ -19,20 +24,7 @@ body {
     padding: 16px 0 0 16px;
 }
 
-.sidebar_navigation {
-    background-color: #121212;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.sidebar_navigation .logo {
-    background: #121212;
-    display: flex;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
-}
-
-.sidebar_navigation .logo img {
+.sidebar__navigation .logo img {
     width: 80px;
 }
 
@@ -69,7 +61,6 @@ body {
 .library .library__content {
     display: flex;
     justify-content: space-between;
-
 }
 
 .library .library__button {
@@ -89,10 +80,10 @@ body {
 
 .library .library__button .fa {
     font-size: 20px;
-    margin-right: 10px;
     font-weight: 300;
-    padding-right: 8px;
     color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
 }
 
 .library .library__content .fa-plus {
@@ -110,6 +101,7 @@ body {
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
+    border-radius: 10px;
 }
 
 .section-playlist .section-playlist__content {
@@ -120,4 +112,59 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
 }
